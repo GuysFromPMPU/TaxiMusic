@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MobileApp"
              x:Class="MobileApp.MainPage">
-
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    
+    <StackLayout VerticalOptions="Center">
+        <Button Text="Detect language" BackgroundColor="#57b298" TextColor="White" Clicked="Button_OnClicked"/>
+    </StackLayout>
 
 </ContentPage>
