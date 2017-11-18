@@ -3,9 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MobileApp"
              x:Class="MobileApp.MainPage">
-    
-    <StackLayout VerticalOptions="Center">
-        <Button Text="Detect language" BackgroundColor="#57b298" TextColor="White" Clicked="Button_OnClicked"/>
-    </StackLayout>
-
+    <AbsoluteLayout>
+        <Image Source="background.png"
+               Aspect="Fill"
+               AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+               AbsoluteLayout.LayoutFlags="SizeProportional"/>
+        <StackLayout VerticalOptions="Start"
+                     Padding="50, 50"
+                     AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                     AbsoluteLayout.LayoutFlags="All">
+            <Button Text="Detect language" TextColor="White" Clicked="Button_OnClicked" BackgroundColor="Transparent" BorderColor="Transparent"/>
+        </StackLayout>
+    </AbsoluteLayout>
 </ContentPage>
