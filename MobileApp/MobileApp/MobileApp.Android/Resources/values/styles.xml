@@ -27,4 +27,14 @@
   <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
     <item name="colorAccent">#FF4081</item>
   </style>
+
+  <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Change color of status bar icons to gray-->
+    <item name="android:windowLightStatusBar">true</item>
+
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="colorPrimaryDark">#57b298</item>
+    <item name="android:navigationBarColor">#57b298</item>
+  </style>
+  
 </resources>
