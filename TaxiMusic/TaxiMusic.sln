@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileApp.Android", "MobileApp\MobileApp.Android\MobileApp.Android.csproj", "{FFC56D57-7D26-4B13-84BA-E263FF5E7CBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiMusic.Android", "TaxiMusic\TaxiMusic.Android\TaxiMusic.Android.csproj", "{FFC56D57-7D26-4B13-84BA-E263FF5E7CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileApp.iOS", "MobileApp\MobileApp.iOS\MobileApp.iOS.csproj", "{EF903E22-2E26-4D85-B0AD-F461CBC46758}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiMusic.iOS", "TaxiMusic\TaxiMusic.iOS\TaxiMusic.iOS.csproj", "{EF903E22-2E26-4D85-B0AD-F461CBC46758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileApp", "MobileApp\MobileApp\MobileApp.csproj", "{CDBC7BB5-FC32-4BF5-B441-BA0470658BD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiMusic", "TaxiMusic\TaxiMusic\TaxiMusic.csproj", "{CDBC7BB5-FC32-4BF5-B441-BA0470658BD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

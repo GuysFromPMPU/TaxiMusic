@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("MobileApp.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("TaxiMusic.Android.Resource", IsApplication=true)]
 
-namespace MobileApp.Droid
+namespace TaxiMusic.Android
 {
 	
 	
@@ -26,7 +26,7 @@ namespace MobileApp.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::MobileApp.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::TaxiMusic.Android.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

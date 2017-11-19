@@ -8,9 +8,9 @@
     <ProjectGuid>{EF903E22-2E26-4D85-B0AD-F461CBC46758}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MobileApp.iOS</RootNamespace>
+    <RootNamespace>TaxiMusic.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>MobileApp.iOS</AssemblyName>
+    <AssemblyName>TaxiMusic.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -88,6 +88,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Services\iOSAudioRecorder.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
@@ -121,11 +122,11 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.91635" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\MobileApp\MobileApp.csproj">
-      <Project>{6B0DD7AF-6A6A-45E5-A491-B97D9F714EF1}</Project>
-      <Name>MobileApp</Name>
+    <ProjectReference Include="..\TaxiMusic\TaxiMusic.csproj">
+      <Project>{cdbc7bb5-fc32-4bf5-b441-ba0470658bd7}</Project>
+      <Name>TaxiMusic</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
