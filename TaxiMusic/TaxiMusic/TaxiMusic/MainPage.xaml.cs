@@ -33,22 +33,24 @@ namespace TaxiMusic
             //    ? new Uri(BaseUrl + PopularChartsInCountry["en"])
             //    : new Uri(BaseUrl + PopularChartsInCountry["de"]));
 
-            var button = (Button) sender;
+            Application.Current.MainPage.Navigation.PushModalAsync(new DetectLanguage());
 
-            if (!isRecording)
-            {
-                string audioFileName = Guid.NewGuid().ToString();
-                App.AudioRecorder.AudioFileName = audioFileName;
-                App.AudioRecorder.StartRecord();
-                button.Text = "Recording.......";
-                isRecording = true;
-            }
-            else
-            {
-                button.Text = "Start Recording";
-                App.AudioRecorder.StopRecord();
-                isRecording = false;
-            }
+            //var button = (Button) sender;
+
+            //if (!isRecording)
+            //{
+            //    string audioFileName = Guid.NewGuid().ToString();
+            //    App.AudioRecorder.AudioFileName = audioFileName;
+            //    App.AudioRecorder.StartRecord();
+            //    button.Text = "Recording.......";
+            //    isRecording = true;
+            //}
+            //else
+            //{
+            //    button.Text = "Start Recording";
+            //    App.AudioRecorder.StopRecord();
+            //    isRecording = false;
+            //}
         }
     }
 }
